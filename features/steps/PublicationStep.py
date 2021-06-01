@@ -1,14 +1,14 @@
 from behave import *
 from pageactions.PublicationPage import PublicationPage
 
-@given(u'open numerator home page')
-def step_impl(context):
-    context.page = PublicationPage(context)
-    context.page.visit_url(context.url)
-
-@given(u'Click on subscription management')
-def step_impl(context):
-    context.page.click_on_subscription_management()
+# @given(u'open numerator home page')
+# def step_impl(context):
+#     context.page = PublicationPage(context)
+#     context.page.visit_url(context.url)
+#
+# @given(u'Click on subscription management')
+# def step_impl(context):
+#     context.page.click_on_subscription_management()
 
 @given(u'click on Publication')
 def step_impl(context):
@@ -37,7 +37,7 @@ def step_impl(context):
     context.page.verify_filter_display()
     # pass
 
-@then(u'should be able to see the pagination feature on the page bottom')
+@then(u'should be able to see the pagination features on the page bottom')
 def step_impl(context):
     context.page.page_visibilty()
     # pass

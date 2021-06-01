@@ -16,9 +16,9 @@ from time import strftime
 # before_scenario(context, scenario), after_scenario(context, scenario)
 #   * These run before and after each scenario is run.
 #   * The scenario passed in is an instance of Scenario.
-# before_feature(context, feature), after_feature(context, feature)
-#   * These run before and after each feature file is exercised.
-#   * The feature passed in is an instance of Feature.
+# before_feature(context, features), after_feature(context, features)
+#   * These run before and after each features file is exercised.
+#   * The features passed in is an instance of Feature.
 # before_tag(context, tag), after_tag(context, tag)
 #   * These run before and after each tag.
 #   * The tag passed in is an instance of Tag
@@ -33,7 +33,7 @@ def before_all(context):
     :param context: Holds contextual information during the running of tests
     :return: None
     """
-    dirs_to_clean = ['/home/daksh.biswas/PycharmProjects/behaveProject/screenshots', '/home/daksh.biswas/PycharmProjects/behaveProject/Logs']
+    dirs_to_clean = [r'C:\Users\GlobalLogic\Numerator1\Logs\screenshots', r'C:\Users\GlobalLogic\Numerator1\Logs']
     patterns = ['*.png', '*.log']
     days_deletion = 0
     for dirs in dirs_to_clean:
@@ -61,16 +61,16 @@ def before_all(context):
 
 
 def before_feature(context, feature):
-    """Log starting of execution of feature
+    """Log starting of execution of features
    :param context: Holds contextual information during the running of tests
-   :param feature: Holds contextual information about the feature during the running of tests
+   :param feature: Holds contextual information about the features during the running of tests
    :return: None
    """
 
-    for scenario in feature.scenarios:
-        if "Sanity" in scenario.effective_tags or "Integration" in scenario.effective_tags \
-                or "Queue" in scenario.effective_tags or "Sequential" in scenario.effective_tags:
-            patch_scenario_with_autoretry(scenario, max_attempts=1)
+    # for scenario in features.scenarios:
+    #     if "Sanity" in scenario.effective_tags or "Integration" in scenario.effective_tags \
+    #             or "Queue" in scenario.effective_tags or "Sequential" in scenario.effective_tags:
+    #         patch_scenario_with_autoretry(scenario, max_attempts=1)
 
     loggerutils.setup_unformatted_logging(context)
 
@@ -179,9 +179,9 @@ def after_scenario(context, scenario):
 
 
 def after_feature(context, feature):
-    """Log finished execution of feature
+    """Log finished execution of features
     :param context: Holds contextual information during the running of tests
-    :param feature: Holds contextual information about feature during the running of tests
+    :param feature: Holds contextual information about features during the running of tests
     :return: None
     """
     loggerutils.setup_unformatted_logging(context)

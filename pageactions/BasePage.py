@@ -10,13 +10,13 @@ class BasePage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        self.timeout = 10
+        self.timeout = 15
         self.pool = 300
         self.wait = WebDriverWait(self.driver, self.timeout, self.pool)
 
-    # base_locators = {
-    #     'app_loader': (By.XPATH, "//div[@class='app-loader']")
-    # }
+    base_locators = {
+        'app_loader': (By.XPATH, "//div[@class='app-loader']")
+    }
 
     def visit_url(self, url):
         self.driver.get(url)
@@ -65,14 +65,14 @@ class BasePage(object):
     def is_element_enabled(self, element):
         return self.find_element(element).is_enabled()
 
-    # def is_loading_started(self):
-    #     return self.check_if_element_exists((By.XPATH, "//div[@class='app-loader']"))
-    #
-    # def is_loading_completed(self):
-    #     if self.is_loading_started():
-    #         self.wait_until_element_is_invisible((By.XPATH, "//div[@class='app-loader']"))
-    #     else:
-    #         assert True
+    def is_loading_started(self):
+        return self.check_if_element_exists((By.XPATH, "//div[@class='app-loader']"))
+
+    def is_loading_completed(self):
+        if self.is_loading_started():
+            self.wait_until_element_is_invisible((By.XPATH, "//div[@class='app-loader']"))
+        else:
+            assert True
 
     def send_tabs(self, n):
         actions = ActionChains(self.driver)
@@ -92,3 +92,6 @@ class BasePage(object):
         windows = self.driver.window_handles
         assert len(windows) > 1
         self.driver.switch_to.window(windows[1])
+
+    def scroll_by_height(self):
+        self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")

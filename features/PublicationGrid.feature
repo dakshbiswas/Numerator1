@@ -32,7 +32,7 @@ Feature: Publication Grid
   Scenario: Verify that the user is able to see the Add publication button
     Given User in the publication page
     Then should be able to see the Add publication button
-
+@tag
   Scenario: Verify that the user is able to see Add Publication button tool-tip text
     Given User in the publication page
     When user clicks on the Add publication button
@@ -42,7 +42,6 @@ Feature: Publication Grid
     Given User in the publication page
      Then check the filter functionality of every column
 
-  @foo
   Scenario: Verify the Sorting functionality
     Given User in the publication page
     Then check the sorting functionality of every column

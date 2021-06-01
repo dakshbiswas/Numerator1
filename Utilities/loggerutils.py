@@ -11,7 +11,7 @@ def __init__(self, context):
 
 
 # Log folder directory
-LOG_DIR = "/home/daksh.biswas/PycharmProjects/behaveProject/Logs"
+LOG_DIR = r"C:\Users\GlobalLogic\Numerator1\Logs"
 
 # Logger configuration settings
 LOG_SETTINGS = {
