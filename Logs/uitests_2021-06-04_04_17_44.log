@@ -1,0 +1,501 @@
+
+
+=============================================================================================
+TESTING STARTED AT : 2021-06-04 04:17:44
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF FEATURE: Recipient Grid
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 1
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Verify the Recipient page
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 9
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:17:47,440 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:47,584 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:47,730 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:50,516 : environment.py : after_step:149 : "Recipient List" page is displayed to the user for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Verify the Recipient page
+Result: Status.passed
+Time taken: 0.07 mins, 4.21 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Verify existing Recipients in the Database
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 12
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:17:55,292 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:55,460 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:55,601 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:17:58,757 : environment.py : after_step:149 : check for an existing record in Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Verify existing Recipients in the Database
+Result: Status.passed
+Time taken: 0.08 mins, 4.66 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.1 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 19
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:03,630 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:03,779 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:03,931 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:07,065 : environment.py : after_step:149 : User verifies "Recipient Name" as "01" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.1 
+Result: Status.passed
+Time taken: 0.08 mins, 4.54 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.2 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 20
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:12,131 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:12,286 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:12,438 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:15,162 : environment.py : after_step:149 : User verifies "Address" as "02" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.2 
+Result: Status.passed
+Time taken: 0.07 mins, 4.49 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.3 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 21
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:19,877 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:20,035 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:20,178 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:23,329 : environment.py : after_step:149 : User verifies "Primary Phone" as "03" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.3 
+Result: Status.passed
+Time taken: 0.08 mins, 4.58 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.4 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 22
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:28,068 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:28,221 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:28,369 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:31,103 : environment.py : after_step:149 : User verifies "Backup Phone" as "04" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.4 
+Result: Status.passed
+Time taken: 0.07 mins, 4.13 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.5 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 23
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:35,808 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:35,961 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:36,121 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:38,846 : environment.py : after_step:149 : User verifies "Email" as "05" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.5 
+Result: Status.passed
+Time taken: 0.07 mins, 4.13 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.6 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 24
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:43,528 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:43,683 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:43,833 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:46,565 : environment.py : after_step:149 : User verifies "Monthly Cost" as "06" field for Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates columns in Subscription Grid -- @1.6 
+Result: Status.passed
+Time taken: 0.07 mins, 4.15 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Verify that user is able to see total record count
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 27
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:51,323 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:51,475 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:51,627 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:54,283 : environment.py : after_step:149 : check the total record count visibility in Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Verify that user is able to see total record count
+Result: Status.passed
+Time taken: 0.07 mins, 4.12 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Pagination Test in Recipient Grid
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 31
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:18:59,241 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:59,384 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:18:59,544 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:02,737 : environment.py : after_step:149 : User understands that Total Count is More than Page Size in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:13,527 : environment.py : after_step:149 : User tries to check if all pages are accessible properly in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Pagination Test in Recipient Grid
+Result: Status.passed
+Time taken: 0.26 mins, 15.36 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.1 
+Tags: ['Page_Size']
+Filename: features/RecipientGrid.feature
+Line: 44
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:19:18,251 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:18,409 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:18,553 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:21,339 : environment.py : after_step:149 : User clicks on page size in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:25,223 : environment.py : after_step:149 : User clicks on page size value "25" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:25,269 : environment.py : after_step:149 : Publication List page is loaded on page size value "25" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:25,644 : environment.py : after_step:149 : User checks page size related changes on "05" UI in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.1 
+Result: Status.passed
+Time taken: 0.14 mins, 8.51 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.2 
+Tags: ['Page_Size']
+Filename: features/RecipientGrid.feature
+Line: 45
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:19:30,317 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:30,466 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:30,615 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:33,399 : environment.py : after_step:149 : User clicks on page size in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:34,555 : environment.py : after_step:149 : User clicks on page size value "50" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:34,619 : environment.py : after_step:149 : Publication List page is loaded on page size value "50" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:35,275 : environment.py : after_step:149 : User checks page size related changes on "05" UI in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.2 
+Result: Status.passed
+Time taken: 0.10 mins, 6.05 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.3 
+Tags: ['Page_Size']
+Filename: features/RecipientGrid.feature
+Line: 46
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:19:39,988 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:40,135 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:40,287 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:43,476 : environment.py : after_step:149 : User clicks on page size in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:47,340 : environment.py : after_step:149 : User clicks on page size value "75" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:47,387 : environment.py : after_step:149 : Publication List page is loaded on page size value "75" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:19:48,358 : environment.py : after_step:149 : User checks page size related changes on "05" UI in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.3 
+Result: Status.passed
+Time taken: 0.16 mins, 9.50 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.4 
+Tags: ['Page_Size']
+Filename: features/RecipientGrid.feature
+Line: 47
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:19:53,071 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:53,214 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:53,364 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:19:56,129 : environment.py : after_step:149 : User clicks on page size in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:00,008 : environment.py : after_step:149 : User clicks on page size value "100" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:00,070 : environment.py : after_step:149 : Publication List page is loaded on page size value "100" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:01,326 : environment.py : after_step:149 : User checks page size related changes on "05" UI in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Page Size Test in Recipient Grid -- @1.4 
+Result: Status.passed
+Time taken: 0.16 mins, 9.38 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Verify that the user is able to see the Add Recipient button
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 50
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:20:06,061 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:06,215 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:06,366 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:06,494 : environment.py : after_step:149 : User verifies the visibility of the Add Recipient button of Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Verify that the user is able to see the Add Recipient button
+Result: Status.passed
+Time taken: 0.03 mins, 1.52 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: Verify that the user is able to see Add Publication button tool-tip text
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 53
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:20:11,321 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:11,465 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:11,615 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:12,048 : environment.py : after_step:149 : user hovers over the Add Recipient button of Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:15,375 : environment.py : after_step:149 : User should be able to see Add Recipient button tool-tip text of Recipient grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: Verify that the user is able to see Add Publication button tool-tip text
+Result: Status.passed
+Time taken: 0.09 mins, 5.27 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.1 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 65
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:20:20,067 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:20,219 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:20,371 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:26,486 : environment.py : after_step:149 : User double clicks on "01" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:26,517 : environment.py : after_step:149 : verifies the change on "01" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:29,935 : environment.py : after_step:149 : again User double clicks on "01" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:29,966 : environment.py : after_step:149 : again verifies the change on "01" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.1 
+Result: Status.passed
+Time taken: 0.18 mins, 11.01 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.2 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 66
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:20:34,856 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:35,010 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:35,154 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:41,331 : environment.py : after_step:149 : User double clicks on "02" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:41,362 : environment.py : after_step:149 : verifies the change on "02" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:44,763 : environment.py : after_step:149 : again User double clicks on "02" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:44,794 : environment.py : after_step:149 : again verifies the change on "02" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.2 
+Result: Status.passed
+Time taken: 0.19 mins, 11.25 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.3 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 67
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:20:49,490 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:49,639 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:49,786 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:20:56,359 : environment.py : after_step:149 : User double clicks on "03" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:56,390 : environment.py : after_step:149 : verifies the change on "03" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:59,796 : environment.py : after_step:149 : again User double clicks on "03" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:20:59,827 : environment.py : after_step:149 : again verifies the change on "03" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.3 
+Result: Status.passed
+Time taken: 0.19 mins, 11.42 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.4 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 68
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:21:04,590 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:04,733 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:04,882 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:10,996 : environment.py : after_step:149 : User double clicks on "04" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:11,027 : environment.py : after_step:149 : verifies the change on "04" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:14,427 : environment.py : after_step:149 : again User double clicks on "04" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:14,457 : environment.py : after_step:149 : again verifies the change on "04" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.4 
+Result: Status.passed
+Time taken: 0.18 mins, 11.05 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.5 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 69
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:21:19,164 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:19,321 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:19,465 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:25,997 : environment.py : after_step:149 : User double clicks on "05" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:26,027 : environment.py : after_step:149 : verifies the change on "05" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:29,430 : environment.py : after_step:149 : again User double clicks on "05" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:29,461 : environment.py : after_step:149 : again verifies the change on "05" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.5 
+Result: Status.passed
+Time taken: 0.19 mins, 11.44 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.6 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 70
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:21:34,205 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:34,357 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:34,508 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:41,078 : environment.py : after_step:149 : User double clicks on "06" field for Ascending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:41,111 : environment.py : after_step:149 : verifies the change on "06" after Ascending sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:44,529 : environment.py : after_step:149 : again User double clicks on "06" field for Descending Sort in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:44,546 : environment.py : after_step:149 : again verifies the change on "06" after Descending sort in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates sorting feature in Recipient Grid -- @1.6 
+Result: Status.passed
+Time taken: 0.19 mins, 11.49 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.1 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 81
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:21:49,274 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:49,426 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:49,578 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:21:52,996 : environment.py : after_step:149 : User clicks filter button on "01" field and enters "Jerry" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:56,834 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:56,881 : environment.py : after_step:149 : verifies whether the "01" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:56,954 : environment.py : after_step:149 : User clicks filter button on "01" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:58,201 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:21:58,257 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.1 
+Result: Status.passed
+Time taken: 0.17 mins, 10.10 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.2 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 82
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:22:03,233 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:03,381 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:03,533 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:06,978 : environment.py : after_step:149 : User clicks filter button on "02" field and enters "Test" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:10,809 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:10,855 : environment.py : after_step:149 : verifies whether the "02" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:10,938 : environment.py : after_step:149 : User clicks filter button on "02" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:12,180 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:12,231 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.2 
+Result: Status.passed
+Time taken: 0.17 mins, 10.13 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.3 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 83
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:22:17,714 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:17,850 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:17,994 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:21,416 : environment.py : after_step:149 : User clicks filter button on "03" field and enters "345678" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:25,216 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:25,262 : environment.py : after_step:149 : verifies whether the "03" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:25,336 : environment.py : after_step:149 : User clicks filter button on "03" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:26,576 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:26,625 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.3 
+Result: Status.passed
+Time taken: 0.18 mins, 10.77 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.4 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 84
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:22:31,314 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:31,458 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:31,602 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:34,623 : environment.py : after_step:149 : User clicks filter button on "04" field and enters "1234" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:38,499 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:38,546 : environment.py : after_step:149 : verifies whether the "04" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:38,615 : environment.py : after_step:149 : User clicks filter button on "04" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:39,822 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:39,871 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.4 
+Result: Status.passed
+Time taken: 0.16 mins, 9.69 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.5 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 85
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:22:44,526 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:44,668 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:44,820 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:47,819 : environment.py : after_step:149 : User clicks filter button on "05" field and enters "@test" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:51,721 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:51,768 : environment.py : after_step:149 : verifies whether the "05" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:51,840 : environment.py : after_step:149 : User clicks filter button on "05" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:53,089 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:22:53,145 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.5 
+Result: Status.passed
+Time taken: 0.16 mins, 9.71 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+STARTED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.6 
+Tags: []
+Filename: features/RecipientGrid.feature
+Line: 86
+---------------------------------------------------------------------------------------------
+[INFO] : 2021-06-04 04:22:58,007 : environment.py : after_step:149 : open numerator home page for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:58,160 : environment.py : after_step:149 : Click on subscription management for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:22:58,314 : environment.py : after_step:149 : click on "04" Option for Recipient grid : PASSED
+[INFO] : 2021-06-04 04:23:01,292 : environment.py : after_step:149 : User clicks filter button on "06" field and enters "100" in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:23:05,132 : environment.py : after_step:149 : user clicks filter button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:23:05,179 : environment.py : after_step:149 : verifies whether the "06" field is filtered in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:23:05,256 : environment.py : after_step:149 : User clicks filter button on "06" field in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:23:06,490 : environment.py : after_step:149 : user clicks clear button in Recipient Grid : PASSED
+[INFO] : 2021-06-04 04:23:06,546 : environment.py : after_step:149 : verifies whether the field is cleared in Recipient Grid : PASSED
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF SCENARIO: User validates filter feature in Recipient Grid -- @1.6 
+Result: Status.passed
+Time taken: 0.16 mins, 9.75 secs
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+FINISHED EXECUTION OF FEATURE: Recipient Grid
+Result: Status.passed
+Time taken: 3.71 mins, 42.44 secs
+---------------------------------------------------------------------------------------------
+
+
+TESTING FINISHED AT : 2021-06-04 04:23:08
+=============================================================================================

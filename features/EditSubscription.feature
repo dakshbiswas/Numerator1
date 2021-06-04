@@ -1,44 +1,58 @@
 Feature: Edit Subscription
 
   Background: Go to the Subscription List page
-    Given open numerator home page
-    And Click on subscription management
-    And click on subscription
-    Then Double click on the record with "test ned" as subscription name
+    Given open numerator home page for Subscription grid
+    And Click on subscription management for Subscription grid
+    And click on "05" Option for Subscription grid
+    Then Double click on the first record for Subscription grid
+#   @tag
+  Scenario: verify the Edit Subscription page
+    Given "Edit Subscription" page is displayed to the user for Subscription grid
+#@tag
+  Scenario: User is able to see the populated fields with existing values of the subscription gird
+    Then verify the field with "01" is already filled
+#@tag
+  Scenario Outline: User validates columns in Subscription Grid
+    Then User verifies "<columns>" as "<input_id>" field
+  Examples:
+  |  columns            |  input_id  |
+  | Transaction Date    |     01     |
+  | Start Date          |     02     |
+  | End Date            |     03     |
+  | Amount              |     04     |
+  | Transaction Type    |     05     |
+  | Notes               |     06     |
+  | Recipient Name      |     07     |
+#@tag
+  Scenario Outline: User is able to see Edit the fields in the Edit screen and cancel it
+    Then Edit the data in field "<id_01>" with "<data_01>"
+    Then Edit the data in field "<id_04>" with "<data_04>"
+    Then Edit the data in field "<id_05>" with "<data_05>"
+    Then Click on the cancel button and verify row with "<data_01>"
 
+      Examples:
+   |  id_01   | data_01   |  id_04   | data_04   |  id_05   | data_05  |
+   |   01     |   test    |   04     |   test    |   05     |   test   |
+#@tag
+  Scenario Outline: User is able to verify editing of duplicate user
+    Then Edit the data in field "<id_01>" with "<data_01>"
+    Then Click on save button for Subscription grid
+    Then verify the message card "Duplicate Check: The record already exists."
 
-  Scenario: User is in the Edit Subscription page
-    Then Verify Edit subscription screen
+     Examples:
+    |  id_01  |    data_01     |
+    |   01    | Times magazine |
 
-  Scenario: User is able to see the populated fields with existing values of the subscription
-    Given User is in the Edit Subscription page
-    Then verify the field subscription name has "test ned" already filled
-    And Verify all the other fields
-
-  Scenario: User is able to see the Transaction Grid
-    Given User is in the Edit Subscription page
-    Then check all the columns in the Transaction grid
-
-  Scenario: User is able to see the Cancel and Save buttons in the Edit screen
-    Given User is in the Edit Subscription page
-    Then check the Cancel and save buttons visibility
-
-  Scenario: User is able to see Edit the fields in the Edit screen and cancel it
-    Given User is in the Edit Subscription page
-    Then Edit the field Subscription name with "u" to cancel
-    Then Click on the cancel button and verify
-
-  Scenario: User is able to verify editing of duplicate user
-    Given User is in the Edit Subscription page
-    Then Edit the field Subscription name with duplicate "Times magazine"
-    Then verify the message card "Duplicate Check: The record is already exists."
 @tag
-  Scenario: User is able to edit the fields on the Edit screen then save and verify
-    Given User is in the Edit Subscription page
-    Then Edit the field Subscription name with new data "test nedd"
-    Then Edit the field Provider Name with "ABC Corporation"
-    Then Edit the field Recipient Name with "ABC"
-    Then Edit the field Login Info with "abc"
-    Then Edit the field Notes with "testing"
-    Then Click on the save button and verify with subscription name "test nedd"
+  Scenario Outline: User is able to edit the fields on the Edit screen then save and verify
+    Then Edit the data in field "<id_01>" with "<data_01>"
+    Then Edit the data in field "<id_02>" with "<data_02>"
+    Then Edit the data in field "<id_03>" with "<data_03>"
+    Then Edit the data in field "<id_04>" with "<data_04>"
+    Then Edit the data in field "<id_05>" with "<data_05>"
+    Then Click on the save button and verify row with "<data_01>"
+
+Examples:
+  |  id_01   | data_01   |  id_02   | data_02   |  id_03   | data_03   |  id_04   | data_04   |  id_05   | data_05   |
+  |   01     |   test 18 |   02     |   test    |   03     |   test    |   04     |   test    |   05     |   test    |
 
